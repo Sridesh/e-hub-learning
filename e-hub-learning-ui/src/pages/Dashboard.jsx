@@ -5,6 +5,7 @@ function Dashboard() {
   return (
     <Box>
       <Header />
+      <Box sx={{ mt: "70px" }}></Box>
     </Box>
   );
 }

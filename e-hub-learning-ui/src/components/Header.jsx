@@ -36,6 +36,8 @@ function Header() {
         width: "100%",
         height: "70px",
         justifyContent: "space-between",
+        position: "fixed",
+        top: 0,
       }}
       boxShadow={1}
     >

@@ -1,0 +1,106 @@
+{
+    "courses":[
+        {
+            "id": 0,
+            "name": "Web Development Made Easy",
+            "description": "Learn web development from scratch in an easy and intuitive way. This comprehensive course covers the fundamentals of HTML, CSS, and JavaScript, providing hands-on projects and practical examples to help you build responsive and interactive websites. Perfect for beginners, this course will guide you step-by-step through the process of creating modern web pages, ensuring you gain the skills needed to start your web development journey.",
+            "modules": [
+                {
+                    "module_id": 1,
+                    "module_name": "Introduction",
+                    "type": "video",
+                    "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                },
+                {
+                    "module_id": 2,
+                    "module_name": "HTML Basics",
+                    "type": "video",
+                    "link": "https://www.youtube.com/watch?v=UB1O30fR-EE"
+                },
+                {
+                    "module_id": 3,
+                    "module_name": "Semantics",
+                    "type": "video",
+                    "link": "https://www.youtube.com/watch?v=G2GB2iJF2lI"
+                },
+                {
+                    "module_id": 4,
+                    "module_name": "HTML Exercise",
+                    "type": "document",
+                    "link": ""
+                },
+                {
+                    "module_id": 5,
+                    "module_name": "Web Page Styling",
+                    "sub_modules": [
+                        {
+                            "module_id": 1,
+                            "module_name": "CSS",
+                            "type": "video",
+                            "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+                        },
+                        {
+                            "module_id": 2,
+                            "module_name": "CSS Exercise",
+                            "type": "document",
+                            "link": ""
+                        },
+                        {
+                            "module_id": 3,
+                            "module_name": "SASS",
+                            "type": "video",
+                            "link": "https://www.youtube.com/watch?v=_a5j7KoflTs"
+                        },
+                        {
+                            "module_id": 4,
+                            "module_name": "SASS Exercise",
+                            "type": "document",
+                            "link": ""
+                        }
+                    ]
+                },
+                {
+                    "module_id": 6,
+                    "module_name": "JavaScript Basics",
+                    "type": "video",
+                    "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+                },
+                {
+                    "module_id": 7,
+                    "module_name": "JavaScript Advanced Topics",
+                    "sub_modules": [
+                        {
+                            "module_id": 1,
+                            "module_name": "DOM Manipulation",
+                            "type": "video",
+                            "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+                        },
+                        {
+                            "module_id": 2,
+                            "module_name": "ES6 Features",
+                            "type": "video",
+                            "link": "https://www.youtube.com/watch?v=NCwa_xi0Uuc"
+                        },
+                        {
+                            "module_id": 3,
+                            "module_name": "Async JavaScript",
+                            "type": "video",
+                            "link": "https://www.youtube.com/watch?v=PoRJizFvM7s"
+                        }
+                    ]
+                }
+            ]
+        }
+        ,
+        {
+            "id":1,
+            "name":"JavaScript for Beginners",
+            "description":""
+        },
+        {
+            "id":3,
+            "name":"100 days of Python",
+            "description":""
+        }
+    ]
+}
