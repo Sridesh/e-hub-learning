@@ -35,7 +35,7 @@ function SignIn() {
           spacing={4}
           sx={{
             width: "20vw",
-            paddingX: "40px",
+            paddingX: "41px",
             paddingY: "30px",
             borderRadius: "10px",
           }}
