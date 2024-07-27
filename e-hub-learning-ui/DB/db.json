@@ -1,5 +1,5 @@
 {
-    "courses":[
+    "courses": [
         {
             "id": 0,
             "name": "Web Development Made Easy",
@@ -90,17 +90,6 @@
                     ]
                 }
             ]
-        }
-        ,
-        {
-            "id":1,
-            "name":"JavaScript for Beginners",
-            "description":""
-        },
-        {
-            "id":3,
-            "name":"100 days of Python",
-            "description":""
         }
     ]
 }
