@@ -8,6 +8,9 @@ import "@fontsource/roboto/700.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import EditCourse from "./pages/EditCourse.jsx";
+import AddCourse from "./pages/AddCourse.jsx";
+import Common from "./components/Common.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,8 +18,20 @@ const router = createBrowserRouter([
     element: <SignIn />,
   },
   {
-    path: "/",
+    path: "/dashboard",
     element: <Dashboard />,
+  },
+  {
+    path: "/",
+    element: <Common />,
+  },
+  {
+    path: "/edit-course",
+    element: <EditCourse />,
+  },
+  {
+    path: "/create-course",
+    element: <AddCourse />,
   },
 ]);
 

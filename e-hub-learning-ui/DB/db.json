@@ -1,95 +1,326 @@
 {
-    "courses": [
+  "courses": [
+    {
+      "id": 0,
+      "name": "Web Development Made Easy",
+      "description": "Learn web development from scratch in an easy and intuitive way. This comprehensive course covers the fundamentals of HTML, CSS, and JavaScript, providing hands-on projects and practical examples to help you build responsive and interactive websites. Perfect for beginners, this course will guide you step-by-step through the process of creating modern web pages, ensuring you gain the skills needed to start your web development journey.",
+      "modules": [
         {
-            "id": 0,
-            "name": "Web Development Made Easy",
-            "description": "Learn web development from scratch in an easy and intuitive way. This comprehensive course covers the fundamentals of HTML, CSS, and JavaScript, providing hands-on projects and practical examples to help you build responsive and interactive websites. Perfect for beginners, this course will guide you step-by-step through the process of creating modern web pages, ensuring you gain the skills needed to start your web development journey.",
-            "modules": [
-                {
-                    "module_id": 1,
-                    "module_name": "Introduction",
-                    "type": "video",
-                    "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
-                },
-                {
-                    "module_id": 2,
-                    "module_name": "HTML Basics",
-                    "type": "video",
-                    "link": "https://www.youtube.com/watch?v=UB1O30fR-EE"
-                },
-                {
-                    "module_id": 3,
-                    "module_name": "Semantics",
-                    "type": "video",
-                    "link": "https://www.youtube.com/watch?v=G2GB2iJF2lI"
-                },
-                {
-                    "module_id": 4,
-                    "module_name": "HTML Exercise",
-                    "type": "document",
-                    "link": ""
-                },
-                {
-                    "module_id": 5,
-                    "module_name": "Web Page Styling",
-                    "sub_modules": [
-                        {
-                            "module_id": 1,
-                            "module_name": "CSS",
-                            "type": "video",
-                            "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
-                        },
-                        {
-                            "module_id": 2,
-                            "module_name": "CSS Exercise",
-                            "type": "document",
-                            "link": ""
-                        },
-                        {
-                            "module_id": 3,
-                            "module_name": "SASS",
-                            "type": "video",
-                            "link": "https://www.youtube.com/watch?v=_a5j7KoflTs"
-                        },
-                        {
-                            "module_id": 4,
-                            "module_name": "SASS Exercise",
-                            "type": "document",
-                            "link": ""
-                        }
-                    ]
-                },
-                {
-                    "module_id": 6,
-                    "module_name": "JavaScript Basics",
-                    "type": "video",
-                    "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
-                },
-                {
-                    "module_id": 7,
-                    "module_name": "JavaScript Advanced Topics",
-                    "sub_modules": [
-                        {
-                            "module_id": 1,
-                            "module_name": "DOM Manipulation",
-                            "type": "video",
-                            "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
-                        },
-                        {
-                            "module_id": 2,
-                            "module_name": "ES6 Features",
-                            "type": "video",
-                            "link": "https://www.youtube.com/watch?v=NCwa_xi0Uuc"
-                        },
-                        {
-                            "module_id": 3,
-                            "module_name": "Async JavaScript",
-                            "type": "video",
-                            "link": "https://www.youtube.com/watch?v=PoRJizFvM7s"
-                        }
-                    ]
-                }
-            ]
+          "module_id": 1,
+          "module_name": "Introduction",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+        },
+        {
+          "module_id": 2,
+          "module_name": "HTML Basics",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=UB1O30fR-EE"
+        },
+        {
+          "module_id": 3,
+          "module_name": "Semantics",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=G2GB2iJF2lI"
+        },
+        {
+          "module_id": 4,
+          "module_name": "HTML Exercise",
+          "type": "document",
+          "link": "HTML (Hypertext Markup Language) is the standard language for creating web pages. In exercise, yo will learn the fundamental building blocks of HTML, enabling you to structure content on the web effectively. The exercise involves creating a basic web page that incorporates various HTML elements such as headings, paragraphs, lists, links, images, and forms. You will start by understanding the HTML document structure, including the DOCTYPE declaration, html, head, and body tags. Each element will be explored in detail, providing you with the knowledge to use tags and attributes appropriately. You will learn how to create headings and paragraphs to organize your content, use lists to present information in an ordered or unordered format, and include hyperlinks to connect your web pages. Next, you will delve into adding multimedia elements such as images and videos to enhance the visual appeal of your web page. Forms are another crucial aspect, allowing you to collect user input. You will learn how to create form elements like text fields, radio buttons, checkboxes, and submit buttons. The exercise will also cover semantic HTML, which involves using elements that convey the meaning of the content. Semantic tags like header, footer, article, and section improve the accessibility and SEO (Search Engine Optimization) of your web pages. By the end of this exercise, you should be able to create a well-structured, semantic HTML document that serves as a solid foundation for any web development project."
+        },
+        {
+          "module_id": 5,
+          "module_name": "Web Page Styling",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "CSS",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+            },
+            {
+              "module_id": 2,
+              "module_name": "CSS Exercise",
+              "type": "document",
+              "link": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation  a document written in HTML. This exercise will guide you through the process of styling a web page using CSS, covering various aspects such as selectors, properties, and values.  You will begin by understanding the basic syntax of CSS and how to include it in your HTML document. Different methods of applying CSS will be explored, including inline styles, internal stylesheets, and external stylesheets. You will learn how to use CSS selectors to target HTML elements and apply styles.  The exercise will cover a wide range of CSS properties, including those for setting colors, fonts, and text styles. You will learn how to control the layout of your web page using the box model, which includes margins, borders, padding, and content. Techniques for creating flexible layouts using CSS Flexbox and Grid will be demonstrated, allowing you to design responsive web pages that adapt to different screen sizes. Advanced topics such as animations, transitions, and transformations will also be covered, enabling you to add interactive and dynamic elements to your web pages. You will practice by applying various styles to a sample web page, experimenting with different properties and values to achieve the desired look and feel. By the end of this exercise, you should be able to create a visually appealing and responsive web page using CSS, enhancing the user experience and visual impact of your web development projects."
+            },
+            {
+              "module_id": 3,
+              "module_name": "SASS",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=_a5j7KoflTs"
+            },
+            {
+              "module_id": 4,
+              "module_name": "SASS Exercise",
+              "type": "document",
+              "link": "SASS (Syntactically Awesome Stylesheets) is a preprocessor scripting language that is interpreted or compiled into CSS. This exercise will introduce you to SASS, showing how it can streamline your CSS development process with features such as variables, nesting, and mixins. You will start by setting up a SASS environment and understanding the basic syntax and structure of SASS files. Variables in SASS allow you to store values that you can reuse throughout your stylesheet. You will learn how to create e variables for colors, fonts, and other design elements, making it easier to maintain and update your styles. Nesting is another powerful feature of SASS, enabling you to nest CSS selectors in a way that follows the same visual hierarchy of your HTML. This makes your stylesheet more readable and organized. You will practice nesting selectors to create more concise and maintainable CSS. Mixins are reusable blocks of code that can be included in your stylesheet whenever needed. They allow you to avoid code repetition and keep your CSS DRY (Don't Repeat Yourself). You will learn how to create mixins for common styles and how to use them in your SASS files. The exercise will also cover partials and imports, which help you split your CSS into smaller, more manageable pieces. You will practice organizing your SASS code into partials and importing them into a main stylesheet. By the end of this exercise, you should be able to use SASS to write more efficient, organized, and maintainable CSS, improving your overall web development workflow."
+            }
+          ]
+        },
+        {
+          "module_id": 6,
+          "module_name": "JavaScript Basics",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+        },
+        {
+          "module_id": 7,
+          "module_name": "JavaScript Advanced Topics",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "DOM Manipulation",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+            },
+            {
+              "module_id": 2,
+              "module_name": "ES6 Features",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=NCwa_xi0Uuc"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Async JavaScript",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=PoRJizFvM7s"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Python Programming for Beginners",
+      "description": "A beginner-friendly course designed to teach Python programming from the ground up. This comprehensive course covers basic concepts, data structures, and essential libraries, with hands-on projects and examples to solidify your understanding. Perfect for anyone new to programming, this course will equip you with the skills needed to write efficient Python code.",
+      "modules": [
+        {
+          "module_id": 1,
+          "module_name": "Introduction to Python",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        },
+        {
+          "module_id": 2,
+          "module_name": "Python Setup",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=YYXdXT2l-Gg"
+        },
+        {
+          "module_id": 3,
+          "module_name": "Basic Syntax",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=woVJ4N5nl_s"
+        },
+        {
+          "module_id": 4,
+          "module_name": "Data Structures",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "Lists",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=ohCDWZgNIU0"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Dictionaries",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=daefaLgNkw0"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Tuples",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=ni_kvDURm94"
+            },
+            {
+              "module_id": 4,
+              "module_name": "Data Structures Exercise",
+              "type": "document",
+              "link": "This exercise will help you practice using different data structures in Python, such as lists, dictionaries, and tuples. You will create, modify, and manipulate these structures to understand their unique properties and use cases."
+            }
+          ]
+        },
+        {
+          "module_id": 5,
+          "module_name": "Python Functions",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=NSbOtYzIQI0"
+        },
+        {
+          "module_id": 6,
+          "module_name": "Object-Oriented Programming",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "Classes and Objects",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Inheritance",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=RSl87lqOXDE"
+            },
+            {
+              "module_id": 3,
+              "module_name": "OOP Exercise",
+              "type": "document",
+              "link": "This exercise will guide you through creating classes and objects in Python. You will learn about inheritance, polymorphism, and encapsulation by building a small project that uses these OOP principles."
+            }
+          ]
+        },
+        {
+          "module_id": 7,
+          "module_name": "Python Libraries",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "NumPy",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=QUT1VHiLmmI"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Pandas",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=vmEHCJofslg"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Matplotlib",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=qqwf4Vuj8oM"
+            },
+            {
+              "module_id": 4,
+              "module_name": "Libraries Exercise",
+              "type": "document",
+              "link": "This exercise will introduce you to popular Python libraries like NumPy, Pandas, and Matplotlib. You will perform data analysis, manipulation, and visualization tasks using these libraries to understand their powerful features."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Data Science for Beginners",
+      "description": "An introductory course designed to teach the basics of data science, including data manipulation, visualization, and machine learning. This course is perfect for beginners, offering hands-on projects and practical examples to help you build a solid foundation in data science.",
+      "modules": [
+        {
+          "module_id": 1,
+          "module_name": "Introduction to Data Science",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=ua-CiDNNj30"
+        },
+        {
+          "module_id": 2,
+          "module_name": "Python for Data Science",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=T5pRlIbr6gg"
+        },
+        {
+          "module_id": 3,
+          "module_name": "Data Manipulation with Pandas",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=vmEHCJofslg"
+        },
+        {
+          "module_id": 4,
+          "module_name": "Data Visualization",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "Matplotlib",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=qqwf4Vuj8oM"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Seaborn",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=6GUZXDef2U0"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Data Visualization Exercise",
+              "type": "document",
+              "link": "Data visualization is a key skill in data science, allowing you to communicate complex data insights in a visual format that is easy to understand. In this exercise, you will delve into the world of data visualization using two powerful Python libraries: Matplotlib and Seaborn. The goal is to create a variety of plots and charts that can effectively represent your data.  Matplotlib is a versatile plotting library that provides a wide range of static, animated, and interactive plots in Python. It is particularly well-suited for creating publication-quality figures and has a robust set of tools for customizing every aspect of your plots. Through this exercise, you will learn how to use Matplotlib to create line plots, scatter plots, bar charts, histograms, and more. You will also explore how to customize your plots by adjusting colors, labels, and other visual elements to enhance readability and impa Seaborn, built on top of Matplotlib, offers a high-level interface for drawing attractive and informative statistical graphics. It simplifies the process of creating complex visualizations and is particularly useful for visualizing data from pandas dataframes. In this part of the exercise, you will use Seaborn to create sophisticated plots such as heatmaps, pair plots, and violin plots. You will learn how to effortlessly style your plots and incorporate additional statistical information to provide deeper insights. Throughout this exercise, you will work with a sample dataset, exploring various visualization techniques to uncover patterns and trends within the data. By the end, you should be proficient in using both Matplotlib and Seaborn to create a wide array of visualizations, enabling you to effectively communicate your data findings to any audience."
+            }
+          ]
+        },
+        {
+          "module_id": 5,
+          "module_name": "Machine Learning Basics",
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=Gv9_4yMHFhI"
+        },
+        {
+          "module_id": 6,
+          "module_name": "Supervised Learning",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "Linear Regression",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=4vHk4Two2Eo"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Classification",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=Hd7t-1nFCWQ"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Supervised Learning Exercise",
+              "type": "document",
+              "link": "Supervised learning is a fundamental concept in machine learning where the model is trained on a labeled dataset, meaning that each training example is paired with an output label This exercise will provide you with a hands-on experience in implementing two primary types of supervised learning algorithms: linear regression and classification. Linear regression is used to predict a continuous target variable based on one or more input features. In this part of the exercise, you will learn how to implement a linear regression model in Python. You will start by exploring the theory behind linear regression, understanding concepts such as the cost function and gradient descent. Then, you will apply these concepts to build and train your model using a sample dataset. You will evaluate the performance of your model using metrics such as Mean Squared Error (MSE) and R-squared. Classification, on the other hand, is used to predict a categorical target variable. You will implement various classification algorithms, such as logistic regression, decision trees, and support vector machines. For each algorithm, you will understand the underlying theory, including how the model makes predictions and how it learns from the training data. You will train your classifiers on a sample dataset and assess their performance using metrics like accuracy, precision, recall, and F1-score. You will also learn about techniques such as cross-validation and hyperparameter tuning to improve the performance of your classifiers. By the end of this exercise, you will have a solid understanding of how to implement and evaluate supervised learning models in Python. You will be able to handle different types of data, apply various algorithms, and choose the right evaluation metrics for your specific problem."
+            }
+          ]
+        },
+        {
+          "module_id": 7,
+          "module_name": "Unsupervised Learning",
+          "sub_modules": [
+            {
+              "module_id": 1,
+              "module_name": "Clustering",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=J6QYY2bNVac"
+            },
+            {
+              "module_id": 2,
+              "module_name": "Dimensionality Reduction",
+              "type": "video",
+              "link": "https://www.youtube.com/watch?v=kv3MtjDxKgk"
+            },
+            {
+              "module_id": 3,
+              "module_name": "Unsupervised Learning Exercise",
+              "type": "document",
+              "link": "Unsupervised learning involves training a model on data without labeled responses. The goal is to infer the natural structure present within a set of data points. This exercise will introduce you to two popular unsupervised learning techniques: clustering and dimensionality reduction. Clustering algorithms, such as K-means and hierarchical clustering, group a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups. In this exercise, you will learn how to implement these clustering algorithms in Python. You will start by understanding the theoretical concepts behind clustering, including the objective functions and different distance metrics used to measure similarity. Then, you will apply these algorithms to a sample dataset to identify distinct groups within the data. You will visualize the clusters and interpret the results to understand the underlying patterns. mensionality reduction techniques, such as Principal Component Analysis (PCA) and t-SNE, reduce the number of random variables under consideration, helping to simplify the dataset while retaining its essential features. In this part of the exercise, you will learn how to implement these techniques in Python. You will understand how PCA transforms the data into a new coordinate system by finding the principal components that maximize the variance. Similarly, you will explore how t-SNE can be used to visualize high-dimensional data in a lower-dimensional space. You will apply these techniques to your sample dataset to reduce its dimensionality and visualize the results.  Throughout this exercise, you will work with various datasets, implementing clustering and dimensionality reduction techniques to uncover hidden structures and reduce complexity. By the end, you should be able to apply unsupervised learning algorithms to your own data, enabling you to gain insights from unlabeled data and prepare it for further analysis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d8be",
+      "name": "National Institute of Business Management",
+      "description": "sdsdsdaas",
+      "modules": [
+        {
+          "module_id": null,
+          "module_name": "sd",
+          "type": "video",
+          "link": ""
+        }
+      ]
+    }
+  ]
 }
