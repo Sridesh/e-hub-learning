@@ -55,7 +55,7 @@ function Header() {
     >
       <img
         src={Logo}
-        style={{ height: "100%" }}
+        style={{ height: "100%", marginLeft: "20px" }}
         onClick={() => navigate("/")}
       />
       {!location.includes("/da") && (
@@ -76,6 +76,7 @@ function Header() {
               }}
             />
           )}
+          onChange={() => navigate("/course")}
         />
       )}
       <Stack
