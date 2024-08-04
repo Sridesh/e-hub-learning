@@ -308,19 +308,7 @@
           ]
         }
       ]
-    },
-    {
-      "id": "d8be",
-      "name": "National Institute of Business Management",
-      "description": "sdsdsdaas",
-      "modules": [
-        {
-          "module_id": null,
-          "module_name": "sd",
-          "type": "video",
-          "link": ""
-        }
-      ]
     }
+    
   ]
 }

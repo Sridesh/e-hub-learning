@@ -12,11 +12,14 @@ import DocumentUpload from "../components/DocumentUpload";
 import CustomeAccordion from "../components/CustomeAccordion";
 import axios from "axios";
 import Header from "../components/Header";
+import { useNavigate } from "react-router-dom";
 
 function AddCourse() {
   const [videoFile, setVideoFile] = useState(null);
   const [videoURL, setVideoURL] = useState("");
   const [addModule, setAddModule] = useState(false);
+
+  const navigate = useNavigate();
 
   const [data, setData] = useState({
     // id: 3,
@@ -30,6 +33,7 @@ function AddCourse() {
     module_name: "",
     type: "",
     link: "",
+    localvid: true,
   });
 
   useEffect(() => {
@@ -120,12 +124,14 @@ function AddCourse() {
     } catch (err) {
       console.log(err);
     }
+
+    navigate("/dashboard");
   };
 
   return (
     <>
       <Header />
-      <Box sx={{ width: "70%", padding: "20px" }}>
+      <Box sx={{ width: "70%", padding: "20px", mt: "70px" }}>
         <Typography variant="h5">Create A New Course</Typography>
         <form onSubmit={handleSubmit}>
           <Stack

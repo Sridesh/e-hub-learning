@@ -11,6 +11,7 @@ import Dashboard from "./pages/Dashboard.jsx";
 import EditCourse from "./pages/EditCourse.jsx";
 import AddCourse from "./pages/AddCourse.jsx";
 import Common from "./components/Common.jsx";
+import Landing from "./components/Landing.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/create-course",
     element: <AddCourse />,
+  },
+  {
+    path: "/course",
+    element: <Landing />,
   },
 ]);
 

@@ -121,19 +121,21 @@ function Dashboard() {
                         title={module.module_name}
                         type={module.type}
                       >
-                        {module.type == "video" && (
-                          // <video width="750px" height="500px" controls>
-                          //   <source src={module.link} />
-                          // </video>
-                          <YouTube
-                            videoId={module.link}
-                            opts={{
-                              width: "750px",
-                              height: "500px",
-                              marginLeft: "50px",
-                            }}
-                          />
-                        )}
+                        {module.type == "video" &&
+                          (module.localvid ? (
+                            <video width="750px" height="500px" controls>
+                              <source src={module.link} />
+                            </video>
+                          ) : (
+                            <YouTube
+                              videoId={module.link}
+                              opts={{
+                                width: "750px",
+                                height: "500px",
+                                marginLeft: "50px",
+                              }}
+                            />
+                          ))}
                         {module.type == "document" && (
                           <Box sx={{ width: "100%", p: "20px" }}>
                             {module.link}
@@ -148,9 +150,6 @@ function Dashboard() {
                                 type={sub_module.type}
                               >
                                 {sub_module.type == "video" && (
-                                  // <video width="750px" height="500px" controls>
-                                  //   <source src={module.link} />
-                                  // </video>
                                   <YouTube
                                     videoId={sub_module.link}
                                     opts={{
